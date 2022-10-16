@@ -187,7 +187,29 @@ body {
     line-height: 24px;
 }
 /* img */
-.img {
-    width: 370px;
+/* .img {
+    max-width:100%;
+    height:auto;
+    
+    object-fit: cover;
+    border: 1px solid grey;
+    
+} */
+.img_container {
     margin-top: 40px;
+    margin-left: 3px;
+    width: 360px;
+    height: auto;
+    
+
+}
+.img_container > img {
+     display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid grey;
+    object-fit: cover;
+   
+
 }
