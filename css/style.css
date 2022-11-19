@@ -16,7 +16,7 @@ body {
 .main-content-section {
     display: flex;
     flex-direction: column;
-    padding: 100px 90px;
+    padding: 20px 90px;
 }
 /* about me section*/
 .about-me-section {  
@@ -117,7 +117,7 @@ body {
     color: #FB6D3A;
 }
 .education-section {  
-    width: 327;    
+    width: 327px;    
 }
 .university {
     font-style: normal;
