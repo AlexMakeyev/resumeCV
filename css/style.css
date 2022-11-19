@@ -22,7 +22,7 @@ body {
 .about-me-section {  
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     
 }
 .about-me-profession {
@@ -33,14 +33,14 @@ body {
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .my-name {
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
     line-height: 55px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: black;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 .project-list {
     padding-left: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .project-item-first{
     font-style: normal;
@@ -79,6 +79,7 @@ body {
     
 }
 .project-name-link {
+    text-decoration:none ;
     color: #595959;
     font-style: normal;
     font-weight: normal;
